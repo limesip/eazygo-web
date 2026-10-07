@@ -1,0 +1,11 @@
+# Sito della società (eazygo.it, www.eazygo.it). L'app sta su https://app.eazygo.it:
+# i link dell'app mandati quando stava su www.eazygo.it (check-in /c/…, struttura /s/…, area host, ospite)
+# portano all'app. Le regole sono controllate dai test (src/lib/siti.ts → regoleRedirect).
+/c  https://app.eazygo.it/c  301
+/c/*  https://app.eazygo.it/c/:splat  301
+/host  https://app.eazygo.it/host  301
+/host/*  https://app.eazygo.it/host/:splat  301
+/ospite  https://app.eazygo.it/ospite  301
+/ospite/*  https://app.eazygo.it/ospite/:splat  301
+/s  https://app.eazygo.it/s  301
+/s/*  https://app.eazygo.it/s/:splat  301

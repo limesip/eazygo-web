@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+  Pagina di partenza dell'app web (modello di Expo per output "single").
+  lang="it" e translate="no": senza, il browser crede che la pagina sia in inglese e la "traduce" in italiano
+  (es. "Stato di nascita" → "Stato di fioritura", "IT" → "ESSO"). L'app cambia lang quando l'ospite sceglie l'inglese.
+-->
+<html lang="it" translate="no" class="notranslate">
+  <head>
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="google" content="notranslate" />
+    <title>eazygo</title>
+    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
+    <style id="expo-reset">
+      /* These styles make the body full-height */
+      html,
+      body {
+        height: 100%;
+      }
+      /* These styles disable body scrolling if you are using <ScrollView> */
+      body {
+        overflow: hidden;
+      }
+      /* Il browser colora di giallo i campi compilati in automatico (telefono, email…): qui restano bianchi */
+      input:-webkit-autofill,
+      input:-webkit-autofill:hover,
+      input:-webkit-autofill:focus,
+      textarea:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0 1000px #ffffff inset !important;
+        box-shadow: 0 0 0 1000px #ffffff inset !important;
+        -webkit-text-fill-color: #0b1a2f !important;
+        caret-color: #0b1a2f;
+        transition: background-color 9999s ease-out 0s;
+      }
+      input:autofill {
+        background-color: #ffffff !important;
+      }
+      /* These styles make the root element full-height */
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+    </style>
+  <meta name="theme-color" content="#06B0A7">
+<meta name="description" content="Check-in online senza app, guida della casa, assistente e vantaggi per chi torna.">
+</head>
+
+  <body>
+    <noscript>Per usare eazygo serve JavaScript attivo.</noscript>
+    <div id="root"></div>
+  <script src="/_expo/static/js/web/entry-d3e9a6567743d282926ef7721691c3d4.js" defer></script>
+</body>
+</html>

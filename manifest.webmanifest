@@ -1,0 +1,42 @@
+{
+  "name": "eazygo",
+  "short_name": "eazygo",
+  "description": "Check-in online senza app, guida della casa, assistente e vantaggi per chi torna.",
+  "lang": "it",
+  "start_url": "./?origine=app",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F5F8F8",
+  "theme_color": "#06B0A7",
+  "icons": [
+    {
+      "src": "icone/icona-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icone/icona-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icone/icona-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "I miei soggiorni",
+      "url": "./ospite"
+    },
+    {
+      "name": "Area host",
+      "url": "./host"
+    }
+  ]
+}

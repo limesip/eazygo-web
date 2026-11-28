@@ -1,0 +1,10 @@
+{
+  "tesseract": "5.1.1",
+  "file": [
+    "tesseract.min.js",
+    "worker.min.js",
+    "tesseract-core-simd-lstm.wasm.js",
+    "tesseract-core-lstm.wasm.js",
+    "eng.traineddata.gz"
+  ]
+}
